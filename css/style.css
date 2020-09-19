@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,300;1,500;1,600&display=swap");
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+nav {
+  padding-top: 35px !important;
+  padding-bottom: 35px !important; }
+  nav .navbar-nav .nav-item {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    nav .navbar-nav .nav-item .nav-link {
+      color: #424242 !important; }
+      nav .navbar-nav .nav-item .nav-link:hover {
+        color: red !important; }
+    nav .navbar-nav .nav-item:last-child {
+      border-radius: 5px; }
+      nav .navbar-nav .nav-item:last-child .nav-link {
+        color: #fff !important;
+        background: red;
+        border-radius: 5px;
+        padding: 10px 20px; }
+
+/******Providing-section*******/
+.Providing-section {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 635px; }
+  .Providing-section .content {
+    text-align: center;
+    margin-top: 200px; }
+    .Providing-section .content h1 {
+      color: #fff;
+      font-size: 40px; }
+    .Providing-section .content p {
+      color: #fff;
+      font-size: 20px;
+      margin-top: -13px; }
+    .Providing-section .content button {
+      height: 60px;
+      font-size: 22px;
+      line-height: 26px;
+      padding: 16px 32px;
+      background: #f8cd53;
+      color: #fff;
+      margin-top: 10px; }
+
+/******about-section******/
+.about-section {
+  padding-top: 145px !important;
+  padding-bottom: 145px !important; }
+  .about-section .container h1 {
+    text-align: center;
+    margin-top: -35px;
+    font-size: 30px; }
+  .about-section .container p {
+    text-align: center;
+    margin-top: -8px; }
+  .about-section .container .line {
+    width: 57px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-left: 48%;
+    margin-bottom: 50px; }
+  .about-section .container .row .about-img {
+    text-align: center;
+    padding-bottom: 35px; }
+  .about-section .container .row .content {
+    text-align: center; }
+    .about-section .container .row .content h3 {
+      font-size: 33px;
+      padding-top: 10px !important;
+      padding-bottom: 10px !important; }
+    .about-section .container .row .content p {
+      font-size: 16px; }
+
+/********approch-section********/
+.approch-section {
+  background: #f3f3f3;
+  padding-top: 45px !important;
+  padding-bottom: 45px !important; }
+  .approch-section .container h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px; }
+  .approch-section .container p {
+    text-align: center;
+    margin-top: -8px; }
+  .approch-section .container .line {
+    width: 57px;
+    height: 4px;
+    background: #000;
+    display: block;
+    margin-left: 48%;
+    margin-bottom: 50px; }
+  .approch-section .container .row {
+    justify-content: center; }
+    .approch-section .container .row .col-10 {
+      box-shadow: 0 0px 10px 0px #f3f3f3;
+      margin-bottom: 36px;
+      background: #fff; }
+      .approch-section .container .row .col-10 .row .approch-content {
+        padding-top: 65px; }
+        .approch-section .container .row .col-10 .row .approch-content h4 {
+          padding-left: 70px; }
+        .approch-section .container .row .col-10 .row .approch-content p {
+          padding-left: 70px;
+          font-size: 15px;
+          text-align: start; }
+
+/******work-section******/
+.work-section {
+  padding-top: 120px !important;
+  padding-bottom: 120px !important;
+  background: #de2b24; }
+  .work-section .container .heading h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: #fff; }
+  .work-section .container .heading p {
+    text-align: center;
+    margin-top: -8px;
+    color: #fff; }
+  .work-section .container .line {
+    width: 57px;
+    height: 4px;
+    background: #fff;
+    display: block;
+    margin-left: 48%;
+    margin-bottom: 50px; }
+  .work-section .container .row {
+    --bs-gutter-x: 0 !important; }
+    .work-section .container .row .col-3 img {
+      width: 100%; }
+
+/********dropdown-section********/
+.dropdown-section {
+  padding-top: 300px !important;
+  padding-bottom: 300px !important;
+  background: #1287bf; }
+  .dropdown-section .container .row h1 {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: #fff; }
+  .dropdown-section .container .row p {
+    text-align: center;
+    margin-top: -8px;
+    color: #fff; }
+  .dropdown-section .container .dropdown {
+    text-align: center; }
+    .dropdown-section .container .dropdown button {
+      background: #fff;
+      border-radius: 30px;
+      width: 70px;
+      height: 55px;
+      line-height: 20px;
+      text-align: center;
+      color: #1287bf;
+      font-size: 35px; }
+  .dropdown-section .container .dropdown-menu {
+    left: -250px !important; }
+    .dropdown-section .container .dropdown-menu li {
+      width: 600px;
+      text-align: center; }
+      .dropdown-section .container .dropdown-menu li .btn-custom {
+        font-size: 13px;
+        border-radius: 0;
+        width: 150px;
+        height: 40px;
+        padding: 11px 25px;
+        background: red;
+        color: #fff;
+        margin: 25px 0; }
+
+/*****Social-section******/
+.Social-section {
+  height: 490px;
+  background-color: #2a2a2a; }
+  .Social-section .container .row h1 {
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+    padding-bottom: 15px; }
+  .Social-section .container .row ul li {
+    padding: 0px 10px; }
+    .Social-section .container .row ul li i {
+      width: 40px;
+      height: 40px;
+      line-height: 34px;
+      display: block;
+      background: #000;
+      color: #fff;
+      text-align: center;
+      border: 3px solid #515151; }
+      .Social-section .container .row ul li i:hover {
+        border: 3px solid red; }
+  .Social-section .container .row p {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 0;
+    color: #fff; }
+  .Social-section .container .row form {
+    text-align: center; }
+    .Social-section .container .row form .mb-3 {
+      width: 600px;
+      margin-left: 345px; }
+    .Social-section .container .row form button {
+      color: #fff;
+      font-size: 14px;
+      height: 40px;
+      width: 120px;
+      border-radius: 0;
+      border: 4px solid #515151;
+      background-color: #131313; }
+      .Social-section .container .row form button:hover {
+        border: 4px solid red; }
+
+/******footer*******/
+footer {
+  background: #515151;
+  padding-top: 40px; }
+  footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 40px; }
+
+/*# sourceMappingURL=style.css.map */
